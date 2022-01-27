@@ -25,7 +25,7 @@ async def set_bot_commands(bot: Bot):
         (
             [
                 BotCommand(command="start", description="New Game"),
-                BotCommand(command="help", description="How to play Bombsweeper?"),
+                BotCommand(command="help", description="How to play BombBlast?"),
                 BotCommand(command="stats", description="Your personal statistics")
             ],
             BotCommandScopeDefault(),
