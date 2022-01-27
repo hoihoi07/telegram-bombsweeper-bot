@@ -17,7 +17,7 @@ async def show_stats(message: types.Message, session: AsyncSession):
     )
     game_data = game_data_request.scalars().all()
     if len(game_data) == 0:
-        await message.answer("You don't have any stats yet! Press /start and play a game of Bombsweeper")
+        await message.answer("You don't have any stats yet! Press /start and play a game of BombBlast")
         return
     user_data = {}
 
