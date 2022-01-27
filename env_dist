@@ -1,5 +1,5 @@
 # telegram
-BOT_TOKEN=1234567890:abcdefghijklmnopqrstuvwxyz
+BOT_TOKEN=5219543505:AAHOpcsf9CMnzq2b03yHBPbu8EOZlFCJeaU
 # database
 DB_HOST=db
 DB_PORT=5432
